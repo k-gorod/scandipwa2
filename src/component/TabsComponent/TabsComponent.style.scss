@@ -1,0 +1,24 @@
+.TabsComponent{
+    display: grid;
+    grid-template-rows: auto auto;
+    &-Tabs{
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        border-bottom: 1px solid var(--secondary-base-color);
+    }
+    &-Tab{
+       text-align: center;
+       padding: 10px;
+       font-size: 1.2em;
+       font-weight: bold;
+       cursor: pointer;
+       &:hover{
+           background: var(--secondary-base-color);
+       }
+    }
+    &-Content{
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "scandipwa2",
+    "version": "0.0.1",
+    "license": "proprietary",
+    "dependencies": {
+        "@scandipwa/scandipwa": "3.2.4-alpha.0",
+        "@scandipwa/scandipwa-scripts": "2.0.12"
+    },
+    "scandipwa": {
+        "type": "theme",
+        "parentTheme": "@scandipwa/scandipwa",
+        "extensions": {
+            "@scandipwa/m2-theme": false
+        }
+    },
+    "scripts": {
+        "start": "scandipwa-scripts start",
+        "build": "scandipwa-scripts build"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "eslintConfig": {
+        "extends": "@scandipwa"
+    },
+    "proxy": "https://scandipwapmrev.indvp.com"
+}
